@@ -1368,7 +1368,7 @@ h6 {
 }
 
 .fantasies {
-  background: url("img/fantasies/fantasies-bg.jpg") center/cover no-repeat;
+  background: url("/img/fantasies/fantasies-bg.jpg") center/cover no-repeat;
   margin-top: 275px;
   margin-bottom: 110px;
   padding-top: 136px;
@@ -1548,7 +1548,7 @@ h6 {
 
 .clients {
   padding-bottom: 354px;
-  background: url("img/clients/bg.png") bottom repeat-x;
+  background: url("/img/clients/bg.png") bottom repeat-x;
 }
 
 @media (max-width: 1300px) {
@@ -1672,7 +1672,7 @@ h6 {
 
 .clients__space::before {
   content: "";
-  background: url("img/clients/01.svg") 0 0 no-repeat;
+  background: url("/img/clients/01.svg") 0 0 no-repeat;
   width: 32px;
   height: 32px;
   position: absolute;
@@ -1711,7 +1711,7 @@ h6 {
 }
 
 .contacts {
-  background: url("img/contacts/contacts-bg.jpg") center/cover no-repeat;
+  background: url("/img/contacts/contacts-bg.jpg") center/cover no-repeat;
   height: 954px;
   position: relative;
   z-index: 1;
