@@ -128,7 +128,12 @@ h6 {
   background-color: #7d6e54;
 }
 
-
+@media (max-width: 1300px) {
+  .button {
+    width: 100%;
+    border-radius: 0;
+  }
+}
 
 .title {
   font-family: Yeseva One;
@@ -345,6 +350,11 @@ h6 {
   font-size: 11px;
 }
 
+@media (max-width: 1300px) {
+  .info__info-menu {
+    display: none;
+  }
+}
 
 .info-menu__list {
   display: -webkit-box;
@@ -388,10 +398,22 @@ h6 {
   width: 100%;
 }
 
+@media (max-width: 1300px) {
+  .info__tel {
+    margin: 0;
+    color: #fff;
+  }
+}
+
 .info__call {
   margin-left: 55px;
 }
 
+@media (max-width: 1300px) {
+  .info__call {
+    display: none;
+  }
+}
 
 .turnkey {
   background: url("img/turnkey/turnkey-bg.jpg") center/cover no-repeat;
@@ -427,6 +449,11 @@ h6 {
   max-width: 522px;
 }
 
+@media (max-width: 1300px) {
+  .turnkey__info {
+    margin: 0 auto;
+  }
+}
 
 .turnkey__title {
   font-family: "Yeseva One";
@@ -468,6 +495,13 @@ h6 {
   margin-right: 20px;
 }
 
+@media (max-width: 1300px) {
+  .turnkey__calc {
+    margin-right: 0;
+    margin-bottom: 26px;
+  }
+}
+
 .turnkey__submit {
   font-style: italic;
   font-size: 11px;
@@ -485,10 +519,17 @@ h6 {
   background-color: #fff;
 }
 
+
+
 .turnkey__submit--mob {
   display: none;
 }
 
+@media (max-width: 1300px) {
+  .turnkey__submit--mob {
+    display: block;
+  }
+}
 
 .projects {
   background-color: #131313;
@@ -1165,6 +1206,16 @@ h6 {
   z-index: 1;
 }
 
+@media (max-width: 1300px) {
+  .repair__info {
+    margin-right: 0;
+    margin-left: 0;
+    padding: 21px 40px 0px 31px;
+    max-width: 270px;
+    margin-top: -140px;
+  }
+}
+
 .repair__subtitle {
   font-family: "Yeseva One";
   font-size: 18px;
@@ -1172,6 +1223,11 @@ h6 {
   margin-bottom: 10px;
 }
 
+@media (max-width: 1300px) {
+  .repair__subtitle {
+    font-size: 15px;
+  }
+}
 
 .repair__list {
   display: inline-block;
@@ -1182,6 +1238,12 @@ h6 {
   font-size: 13px;
   line-height: 27px;
   color: #959595;
+}
+
+@media (max-width: 1300px) {
+  .repair__item {
+    line-height: 22px;
+  }
 }
 
 .repair__item::before {
@@ -1212,7 +1274,7 @@ h6 {
 
 @media (max-width: 1300px) {
   .repair__price {
-    width: 190px;
+    width: 150px;
     font-size: 15px;
     padding: 11px 14px;
     margin-left: 0;
